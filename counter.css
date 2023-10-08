@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #020024 0%, #1d0979 40%, #00d4ff 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.container .cardBody{
+    text-align: center;
+}
+
+.cardBody h1{
+    color: #fff;
+}
+
+.cardBtn{
+    display: flex;
+    gap:1rem;
+}
+
+.cardBtn button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.cardBtn button:nth-child(1){
+    background: orange;
+}
+
+.cardBtn button:nth-child(2){
+    background: red;
+}
+
+.cardBtn button:nth-child(3){
+    background: rgb(32, 201, 32);
+}
+
+.cardBtn button:nth-child(1):active{
+    background: rgb(173, 121, 23);
+    transition: 0.2s;
+}
+
+.cardBtn button:nth-child(2):active{
+    background: rgb(168, 25, 25);
+    transition: 0.2s;
+}
+
+.cardBtn button:nth-child(3):active{
+    background: rgb(19, 110, 19);
+    transition: 0.2s;
+}
