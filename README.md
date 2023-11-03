@@ -19,4 +19,4 @@ To use this counter website project, follow these simple steps:
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://sam-kaushik242.github.io/counter/.git
+  git clone https://github.com/Sam-Kaushik242/counter.git
